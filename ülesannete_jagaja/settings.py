@@ -89,8 +89,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'arnopps@gmail.com'
-EMAIL_HOST_PASSWORD = 'lkpy eaol oqfy rzzp'  # mitte tavaline parool, vaid app password
+EMAIL_HOST_USER = 'sinuoma@gmail.com'
+EMAIL_HOST_PASSWORD = 'vaid app password'  # mitte tavaline parool, vaid app password
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
