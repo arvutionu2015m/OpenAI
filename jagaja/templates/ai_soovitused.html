@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>💡 AI Soovitused</h3>
+<pre style="white-space: pre-wrap; background: #f8f9fa; padding: 15px; border-radius: 10px;">{{ soovitus }}</pre>
+<a href="{% url 'home' %}" class="btn btn-secondary mt-3">← Tagasi ülesannete juurde</a>
+{% endblock %}
